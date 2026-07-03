@@ -58,19 +58,4 @@ The system's outputs are continuously evaluated using a hybrid approach:
 * **Long-Term Context Drift:** For extended outlines, the model may occasionally "forget" early constraints (e.g., changing a character's backstory midway). Prompt chunking is recommended for longer generations.
 * **Copyright Risks:** While guardrails are in place, users should always run final generations through standard plagiarism checkers to ensure no protected intellectual property was inadvertently memorized and reproduced.
 
----
-
-## 🚀 Getting Started (Simulated)
-
-```bash
-# Clone the repository
-git clone [https://github.com/your-org/creative-writing-assistant.git](https://github.com/your-org/creative-writing-assistant.git)
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up environment variables (API Keys, DB connections)
-cp .env.example .env
-
-# Run the local application
-python app.py
+ 
